@@ -1,11 +1,13 @@
 from .core import *
 from .chat import *
-from .platform_integrations import *
+from .integrations import *
+from .utils import *
 
 __all__ = [
     "core",
     "chat",
-    "platform_integrations",
+    "integrations",
+    "utils",
 ]
 
 __version__ = "0.1.0"
